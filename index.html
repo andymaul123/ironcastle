@@ -2,46 +2,128 @@
 <html lang="en">
 <head>
 
-  <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta charset="utf-8">
-  <title>Iron Castle Games</title>
-  <meta name="description" content="Iron Castle Games">
-  <meta name="keywords" content="HTML5, games, unity, web" />
+<!-- Basic Page Needs
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<meta charset="utf-8">
+<title>Iron Castle Games</title>
+<meta name="description" content="Iron Castle Games">
+<meta name="keywords" content="HTML5, games, unity, web" />
 
-  <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Mobile Specific Metas
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+<!-- FONT
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
 
-  <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
-  <link rel="stylesheet" href="css/ironcastle.css">
+<!-- CSS
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/skeleton.css">
+<link rel="stylesheet" href="css/ironcastle.css">
 
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="favicon/favicon.ico">
+<!-- Favicon
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<link rel="icon" type="image/png" href="favicon/favicon.ico">
 
 </head>
 <body>
 
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="container">
-    <div class="row">
-      <div class="one-half column" style="margin-top: 25%">
-        <h4>Basic Page</h4>
-        <p>This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up the <a href="http://www.getskeleton.com">Skeleton documentation</a>.</p>
-      </div>
-    </div>
-  </div>
+<!-- Primary Page Layout
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<div class="container">
+    <section class="home" id="home">
+        <div class="row">
+            <div class="twelve columns">
+                <img src="images/logo.png" class="logo" />
+                <h1 class="title">Iron Castle Games</h1>
+                <span class="subtitle">All good empires start with a castle</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="twelve columns">
+                <nav class="navigation">
+                    <a href="#home">Home</a>
+                    <a href="#about">About Us</a>
+                    <a href="#games">Games</a>
+                    <a href="#contact">Contact Us</a>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="about-us" id="about">
+        <div class="row">
+            <div class="twelve columns">
+                <h2 class="title">About Us</h2>
+                <span class="subtitle">Offering WebGL Games made with Unity 3D</span>
+                <p class="text"><strong>Iron Castle</strong> strives to make <strong>simple, quality</strong> games for the web, because bored internet users deserve good games too. We are not above making games for other platforms though, and have plenty of past experience designing and creating titles for mobile devices.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="games">
+        <div class="row">
+            <div class="twelve columns">
+                <h2 class="title">Games</h2>
+                <span class="subtitle">Browse our selection of WebGL games made with Unity 3D. Click on the thumbnails to view screenshots.</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="six columns">
+                <div class="game-entry">
+                    <a href="images/jellyPopScreen1.png" target="_blank">
+                        <img src="images/jellyPop.png" class="img-responsive">
+                    </a>
+                    <h3 class="title">Jelly Pop!</h3>
+                    <p class="text">A fast-paced arcade game. Click jellies to extend time and get points. <strong>5.43 MB</strong></p>
+                    <button class="play-button">Play</button>
+                </div>
+            </div>
+            <div class="six columns">
+
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="twelve columns">
+                <h2 class="title">Contact Us</h2>
+                <p class="text">Drop us a line at <strong>contact@ironcastlegames.com</strong> and we will do our best to get back to you.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="social" id="contact">
+        <div class="row">
+            <div class="twelve columns">
+                <h2 class="title">Follow Us</h2>
+                <p class="text">On Social Mediaaaaaa!</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="twelve columns">
+                <nav class="social-media-nav">
+                    <a href="https://www.facebook.com/IronCastleGames/?ref=aymt_homepage_panel" target="_blank" class="icon icon-facebook"></a>
+                    <a href="https://twitter.com/IronCastleGames" target="_blank" class="icon icon-twitter"></a>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="row">
+            <div class="twelve columns">
+                <p class="text">Copyright (c) 2017 www.ironcastlegames.com. All rights reserved.</p>
+            </div>
+        </div>
+    </section>
+</div>
 
 <!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
 </html>
