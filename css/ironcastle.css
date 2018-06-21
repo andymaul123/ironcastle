@@ -1,0 +1,141 @@
+/* Shared Properties */
+.container {
+    text-align: center;
+}
+.section {
+    padding: 10rem 0;
+}
+.title {
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 4.4rem;
+}
+.subtitle {
+    font-weight: 400;
+    font-size: 1.8rem;
+    letter-spacing: 0.26rem;
+}
+.title, .subtitle, .text {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.text {
+    margin: 4rem 0;
+    line-height: 150%;
+    padding: 1rem;
+}
+.img-responsive {
+    height: auto;
+    max-width: 100%;
+}
+
+/* Home Section */
+.home {
+    background: #555555 url(../images/overlay.png) repeat;
+}
+.home .title {
+    color: #fff;
+    font-weight: 700;
+    font-size: 5.6rem;
+}
+.home .subtitle {
+    color: #ccc;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.14rem;
+}
+.home .navigation {
+    margin: 5rem 0 0 0;
+}
+.home .navigation .nav-item {
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.14rem;
+    text-decoration: none;
+    margin: 0 0 3rem 0;
+    display: block;
+}
+.home .navigation .nav-item:last-child {
+    margin: 0 0 0 0;
+}
+
+/* About Section */
+.about-us {
+    background: #242424;
+}
+.about-us .title {
+    color: #999;
+
+}
+.about-us .subtitle {
+    color: #666;
+}
+.about-us .text {
+    color: #666;
+    font-size: 1.6rem;
+}
+.about-us .text strong {
+    color: #999;
+}
+
+/* Games Section */
+.portfolio {
+    background: #fff;
+}
+.portfolio .title {
+    color: #333;
+}
+.portfolio .subtitle {
+    color: #666;
+}
+.portfolio .game-entry {
+    padding: 5rem;
+}
+.portfolio .game-entry .game-link {
+    display: block;
+    margin: 0 0 1rem 0;
+}
+.portfolio .game-entry .title {
+    font-size: 1.6rem;
+    color: #565656;
+}
+.portfolio .game-entry .text {
+    margin: 0;
+    color: #565656;
+}
+.portfolio .game-entry .play-button {
+    background: #B03500;
+    border-color:#B03500;
+    padding: 1rem 2.5rem;
+    height: auto;
+}
+.portfolio .game-entry .play-button a {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.6rem;
+    letter-spacing: 0.32rem;
+    font-weight: 400;
+}
+
+/* Contact Section */
+.contact-us {
+    background: #ededed;
+}
+
+/* Social Section */
+.social {
+    background: #477ba7;
+}
+
+/* Tablet+ resolutions */
+@media(min-width: 768px) {
+    .home .navigation {
+        margin: 10rem 0 5rem 0;
+    }
+    .home .navigation .nav-item {
+        display: inline-block;
+        margin: 0 3rem 0 3rem;
+    }
+}
