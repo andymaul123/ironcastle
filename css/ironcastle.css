@@ -18,7 +18,7 @@
 .title, .subtitle, .text {
     font-family: 'Source Sans Pro', sans-serif;
 }
-.text {
+.text, .social-media-nav {
     margin: 4rem 0;
     line-height: 150%;
     padding: 1rem;
@@ -110,13 +110,20 @@
     padding: 1rem 2.5rem;
     height: auto;
 }
-.portfolio .game-entry .play-button a {
+.portfolio .game-entry .play-button {
     font-family: 'Source Sans Pro', sans-serif;
     color: #fff;
     text-decoration: none;
     font-size: 1.6rem;
     letter-spacing: 0.32rem;
     font-weight: 400;
+    border-radius: 5px;
+    padding: 15px 20px;
+    display: block;
+    max-width: 75px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Contact Section */
@@ -128,7 +135,38 @@
 .social {
     background: #477ba7;
 }
-
+.social .title {
+    color: #fff;
+}
+.social .subtitle {
+    color: #fff;
+}
+.social .social-media-nav .icon {
+    margin: 0 1rem;
+}
+.social .social-media-nav .icon:before {
+    display: inline-block;
+    background: #333333;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 2.4rem;
+    font-weight: 400;
+}
+/* Footer Section */
+.footer {
+    background: #242424;
+    padding: 5rem 0;
+}
+.footer .text {
+    color: #666;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    letter-spacing: 0.35rem;
+    font-size: 1.4rem;
+}
 /* Tablet+ resolutions */
 @media(min-width: 768px) {
     .home .navigation {
