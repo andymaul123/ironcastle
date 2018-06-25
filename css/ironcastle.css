@@ -90,7 +90,7 @@
     color: #666;
 }
 .portfolio .game-entry {
-    padding: 5rem;
+    padding: 5rem 0;
 }
 .portfolio .game-entry .game-link {
     display: block;
