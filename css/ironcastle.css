@@ -130,6 +130,12 @@
 .contact-us {
     background: #ededed;
 }
+.contact-us .contact-form .form-label {
+    text-align: left;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+}
 
 /* Social Section */
 .social {
